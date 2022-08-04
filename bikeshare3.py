@@ -12,6 +12,7 @@ for cityval in city_list:
     city_name = cityval[0:-4]
     city_dict[city_name] = cityval
 
+#Functions
 def get_values():
     """Prompts user to enter a city, month and a day
     
