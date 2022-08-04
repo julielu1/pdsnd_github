@@ -7,7 +7,7 @@
 US bikeshare information for New York City, Chicago and Washington.
 
 ### Description
-This project provides information on a bikesharing system, such as the most common month, day or hour of travel, most commonly used train stations, total travel time and stats of users which can be filtered by the user type or the user's gender. The bikesharing data is from New York City, Chicago, or Washington, and users can select which city they would like to see the data for.
+This project provides information on a bikesharing system, such as the most common month, day or hour of travel, most commonly used train stations, total travel time and stats of users which can be filtered by the user type or the user's gender. The bikesharing data is from New York City, Chicago, or Washington, and users can select which city they would like to see the data for. The project utilises pandas to display the lines of data to suit the users needs.
 
 ### Files used
 README.md
