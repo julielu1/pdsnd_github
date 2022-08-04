@@ -97,6 +97,7 @@ def time_stats(df):
     start_hour_common = df['Start Hour'].mode()[0]
     print('The most popular starting hour to travel is {}'.format(start_hour_common))
 
+    # calculates the time taken for this to function to return the appropriate information - a note to turn this into a function that can be repeatedly called would be a good idea to prevent the code from being repetitive as this timing process is called multiple times.
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)    
     
