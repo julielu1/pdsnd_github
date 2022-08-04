@@ -1,7 +1,7 @@
 import time
 import numpy as np
 import pandas as pd
-
+# Lists and Dictionaries
 city_list = ['chicago.csv', 'new_york_city.csv', 'washington.csv']
 city_dict = {}
 month_list = ['January', 'February', 'March', 'April', 'May', 'June']
@@ -12,6 +12,7 @@ for cityval in city_list:
     city_name = cityval[0:-4]
     city_dict[city_name] = cityval
 
+#Functions
 def get_values():
     """Prompts user to enter a city, month and a day
     
