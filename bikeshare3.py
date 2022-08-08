@@ -1,6 +1,7 @@
 import time
 import numpy as np
 import pandas as pd
+
 # Lists and Dictionaries
 city_list = ['chicago.csv', 'new_york_city.csv', 'washington.csv']
 city_dict = {}
@@ -81,7 +82,7 @@ def load_data(city, month, day):
     return df
     
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """Displays statistics on the most frequent times of travel, including month, day, and starting hour"""
 
     print('\033[1m\nCalculating The Most Frequent Times of Travel...\n\033[0m')
     start_time = time.time()
