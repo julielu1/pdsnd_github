@@ -205,6 +205,7 @@ def bikeshare():
             restart = input('\033[1m\nWould you like to restart? Type in yes or no.\n\033[0m').lower()
             if restart == 'yes' or restart == 'no':
                 restart_valid = True
+            #Error checking in case the user's response cannot be read, so that they are re-prompted to provide another answer.
             else:
                 print('\033[1m\nPlease input a valid response\n\033[0m')
         if restart == 'no':
