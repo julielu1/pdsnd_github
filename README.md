@@ -19,3 +19,8 @@ washington.csv
 
 ### Credits
 Credit to the following repository: https://github.com/udacity/pdsnd_github
+
+### Commit Message Structure
+Title: Subject of the commit
+
+Description: The what and why of the commit
